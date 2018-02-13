@@ -1,0 +1,1 @@
+This package is inspired by [Emoji-Mart](https://github.com/missive/emoji-mart)

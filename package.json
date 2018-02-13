@@ -1,0 +1,35 @@
+{
+  "name": "emoji-picker-input",
+  "version": "0.1.2",
+  "description": "emoji-picker-input is Emoji picker with input/textarea",
+  "main": "index.js",
+  "repository": "git@github.com:ankitsin/emoji-picker-input.git",
+  "dependencies": {
+    "emoji-mart": "^2.4.2",
+    "react": "^16.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.17.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-node": "^6.0.0",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-react": "^7.6.1",
+    "eslint-plugin-standard": "^3.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/.bin/eslint --config=.eslintrc.json ./**/*.{jsx,js}",
+    "polish": "npm run lint -s -- --fix"
+  },
+  "keywords": [
+    "react",
+    "emoji",
+    "picker",
+    "input"
+  ],
+  "author": "Ankit Singh <ankitsin37@gmsil.com>",
+  "license": "ISC"
+}
