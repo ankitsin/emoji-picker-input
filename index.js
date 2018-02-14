@@ -1,5 +1,7 @@
-import React from 'react'
-import EmojiTextBox from './src/components/EmojiTextBox'
+import EmojiTextBox, { EmojiPicker } from './dist/emoji-input-picker';
 
-const EmojiPicker = EmojiTextBox
-export default EmojiPicker
+
+module.exports = {
+  EmojiPicker,
+};
+export default EmojiTextBox;

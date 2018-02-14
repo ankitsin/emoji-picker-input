@@ -1,5 +1,5 @@
-import React from 'react'
-import { Picker } from 'emoji-mart'
+import React from 'react';
+import { Picker } from 'emoji-mart';
 
 const EmojiPicker = props => (
   <div className="emojiPicker">
@@ -18,9 +18,9 @@ const EmojiPicker = props => (
         overflow: 'scroll',
         position: 'absolute',
         background: '#fff',
-        bottom: '61px'
+        bottom: '61px',
       }}
     />
   </div>
-)
-export default EmojiPicker
+);
+export default EmojiPicker;
